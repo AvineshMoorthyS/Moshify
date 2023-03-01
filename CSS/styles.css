@@ -463,6 +463,14 @@ a {
   text-align: center;
 }
 @media screen and (min-width: 768px) {
+  .callout{
+    position: absolute;
+    width: 95vw;
+    bottom: -15rem;
+    margin: auto;
+    font-size: 2rem;
+    padding-left: 5rem;
+  }
   .callout .grid--1x2 {
     grid-template-columns: 1fr auto;
   }
@@ -676,6 +684,7 @@ a {
 /* Footer */
 .footer {
   background: #232323;
+  padding-top: 15rem;
 }
 .footer a {
   color: #777;
@@ -732,4 +741,15 @@ a {
   .footer__heading {
     font-size: 1.6rem;
   }
+}
+.disclaimer{
+  text-align: center; 
+  padding-top: 5rem;
+  background: linear-gradient(90deg,#0000ff,#fc00ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.block__callout{
+  position: relative;
+  padding-bottom: 5rem;
 }
