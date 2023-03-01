@@ -126,7 +126,7 @@ a {
   margin-right: 2rem;
 }
 .list--tick {
-  list-style-image: url(../images/tick.svg);
+  list-style-image: url(/tick.626c29a3.svg);
   padding-left: 3rem;
   color: var(--color-headings);
 }
@@ -321,7 +321,7 @@ a {
   position: relative;
 }
 .plan--popular .card__header::before {
-  content: url(../images/popular.svg);
+  content: url(/popular.a6fe98f3.svg);
   width: 40px;
   display: inline-block;
   position: absolute;
@@ -733,3 +733,5 @@ a {
     font-size: 1.6rem;
   }
 }
+
+/*# sourceMappingURL=/styles.db113103.css.map */
